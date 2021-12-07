@@ -1,17 +1,49 @@
-# TECH-I.S.---Model-Optimization
-Feature Selection Techniques
-Welcome to the feature selection module which concerns of Selection in a large data set consisting of one or more than one features which are either redundant or irrelevant and thus can be removed without incurring much loss of information.
+# Model Optimisation 
 
-What we have learnt so far
-What is Feature Selection
-Why Feature Selection
-Univariate Feature Selection
-Multivariate Feature Selection
-What we will learn by solving this assignment?
-How are the features important to our model.
-How to select the most significant features out of many.
-How to perform univariate feature selection.
-How to perform multivariate feature selection.
-Now, let's take this forward and increase our understanding of feature selection!
+## [01 Feature Selection](01_Feature%20Selection)
 
-This assignment is a series of simple tasks, in which we will be perfoming feature selection techniques on the house pricing data.
+- [Correlation Graphs](https://github.com/Tech-i-s/techis-ds-wiki/blob/master/Step%204-1%20Model%20Optimisation/01_Feature%20Selection/q01_plot_corr/q01_plot_corr.ipynb)
+- [K-Percentile](https://github.com/Tech-i-s/techis-ds-wiki/blob/master/Step%204-1%20Model%20Optimisation/01_Feature%20Selection/q02_best_k_features/q02_best_k_features.ipynb)
+- [RandomForest RFE](https://github.com/Tech-i-s/techis-ds-wiki/blob/master/Step%204-1%20Model%20Optimisation/01_Feature%20Selection/q04_select_from_model/q04_select_from_model.ipynb)
+- [SelectFromModel](https://github.com/Tech-i-s/techis-ds-wiki/blob/master/Step%204-1%20Model%20Optimisation/01_Feature%20Selection/q04_select_from_model/q04_select_from_model.ipynb)
+- [Forward Selection](https://github.com/Tech-i-s/techis-ds-wiki/blob/master/Step%204-1%20Model%20Optimisation/01_Feature%20Selection/q05_forward_selected/q05_forward_selected.ipynb)
+
+## [02 Measuring Model Performance](02_Measuring%20Model%20Performance)
+
+- Evaluation of a Classification Model
+  - Log Loss or Cross-Entropy Loss
+  - Confusion Matrix
+  - Accuracy
+  - Recall or Sensitivity
+  - Precision
+  - F1 Score
+  - AUC-ROC Curve
+ - Evaluation of a Regression Model
+  - Mean Squared Error or MSE
+  - Root Mean Squared Error or RMSE
+  - Mean Absolute Error or MAE
+  - Mean absolute percentage error (MAPE)
+  - R-squared (coefficient of determination)
+  - Adjusted R-Squared
+
+## [03 Model Selection(Cross-Validation) & Hyperparameter Tuning](03_Cross%20Validation%20and%20Hyperparameter%20Tuning)
+
+- Introduction
+  - Data Splitting
+- Model Selection(By Cross-Validation)
+  - Choose the right model
+  - Overfitting
+  - Underfitting
+  - Cross-Validation
+  - Holdout cross validation
+  - k-fold cross validation
+  - Nested K-Fold Cross Validation
+- Hyperparameter Tuning
+  - Grid Search
+  - Random Search
+  
+# Supplimentary Resources 
+
+- [A Survey of Optimization Methods from
+a Machine Learning Perspective](https://arxiv.org/pdf/1906.06821.pdf)
+- [Model Metric Evaluation](https://www.jeremyjordan.me/evaluating-a-machine-learning-model/)
